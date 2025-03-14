@@ -17,7 +17,7 @@ body {
 }
 
 .billboard {
-  background-image: url(/profile/background-profile1.jpg);
+  background-image: url(profile/background-profile1.jpg);
   background-size: cover;
 }
 .billboard-introtext {
