@@ -1,0 +1,240 @@
+body {
+  font-family: Courier;
+}
+.overlay {
+    background-color: #a6a6a6;
+    opacity: 0.5;
+    font-family: Trebuchet MS;
+    position: absolute;
+    top: 0px;
+}
+.canvas-fullheight {
+  height:100vh;
+  width:100vw;
+  margin:0px 0px 0px 0px;;
+  padding:0px;
+  overflow: hidden;
+}
+
+.billboard {
+  background-image: url(/profile/background-profile1.jpg);
+  background-size: cover;
+}
+.billboard-introtext {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+  font-family: Courier;
+  font-size: 2vw;
+  color: white;
+  background-color: rgba(3, 0, 50, 0.7);
+  padding: 20px;
+  width: 60vw;
+  border-radius: 20px;
+  height: 0px;
+  transition: height 1s;
+
+}
+.billboard-img {
+  border-radius: 50%;
+  width: 40vw;
+  height:40vw;
+  resize: both;
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
+  color:white;
+}
+.profile-header{
+  font-weight: bold;
+  font-family: Courier;
+  color:white;
+  font-size: 4vw;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+.content-sector{
+  padding: 30px 60px 30px 60px;
+  background-color: black;
+  font-family: Courier;
+  width:100vw;
+  color: white;
+}
+.experience-title:hover{
+  cursor: pointer;
+}
+.experience-title{
+  font-size:1.5rem;
+}
+.project-title {
+  font-size:3vw;
+
+  font-weight: bold;
+}
+.project-description{
+  font-size: 1.5vw;
+}
+.navbar-skills {
+  margin-bottom: 40px;
+}
+.project-showcase{
+  padding: 10px;
+  margin-bottom: 15px;
+  direction: rtl;
+}
+.skill-icon{
+  width:70%;
+  padding:2vw;
+  cursor: pointer;
+  z-index: 80;
+  position: absolute;
+}
+.skill-icon:hover {
+  transform: scale(1.1) !important;
+}
+#matlab-icon{
+  position: relative;
+  left:12vw;
+  top:-2vh;
+}
+#pi-icon{
+  position: relative;
+  left:7vw;
+}
+#cpp-icon{
+  position: relative;
+  top:5vh;
+  left:6vw;
+}
+#py-icon{
+  position: relative;
+  top:8vh;
+  left:-2vw;
+}
+#esp32-icon{
+  position: relative;
+  top:2vh;
+  left:14vw;
+}
+#android-icon{
+  position: relative;
+  top:-2vh;
+}
+#electronics-icon{
+  position: relative;
+  top:-4vh;
+  left:-4vw;
+}
+.skill-level{
+  position:absolute;
+  top:-100px;
+  left:0px;
+  background-color: rgba(3, 0, 50, 0.8);
+  transition: height 1s;
+  border-radius: 20px;
+  overflow: hidden;
+  padding:0px;
+  z-index: 100;
+  font-size:1vw;
+  width:20rem;
+  height:0px;
+}
+.skill-level.expanded{
+  height:20rem;
+}
+
+.skill-title-i{
+  font-size:1.5rem;
+}
+
+.worktitle{
+  font-weight: bold;
+  font-size:2.5vw;
+  margin-bottom:20px;
+}
+.worktitle:hover{
+  cursor: pointer;
+}
+.workdescription{
+  overflow: hidden;
+  transition: max-height 1s;
+  max-height:0px;
+}
+.workdescription.expanded{
+  max-height: 1000px;
+}
+.rotate90 {
+  transform: rotate(90deg);
+}
+.fa-caret-right{
+  transition: transform 0.3s ease-in-out
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-skills {
+    margin-bottom: 10px;
+  }
+  .project-title{
+    font-size:20px;
+  }
+  .experience-title{
+    font-size:15px;
+  }
+  .profile-header {
+    font-size:25px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+  .billboard-introtext {
+    position: absolute;
+    width: 80vw;
+    top: 60px;
+    left: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+  }
+  .billboard-img {
+    width: 65vw;
+    height:65vw;
+    right:20px;
+    bottom: 150px
+  }
+  .content-sector{
+    padding: 10px 20px 10px 20px;
+  }
+  .project-description{
+    font-size:1rem;
+  }
+  .project-showcase{
+    direction: ltr;
+  }
+  .skill-icon{
+    width:100%;
+  }
+  .skill-level{
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: rgba(3, 0, 50, 0.8);
+    transition: height 1s;
+    border-radius: 20px;
+    overflow: hidden;
+    padding:0px;
+    width:100vw;
+    max-height:35vh;
+    z-index: 100;
+    font-size:4vw;
+  }
+  .skill-title-i{
+    font-size:5vw;
+  }
+  .project-title{
+    margin-top:15px;
+  }
+  .worktitle{
+    font-size: 1rem;
+  }
+  .workdescription{
+    padding:0px;
+  }
+}
