@@ -73,7 +73,7 @@ body {
 }
 .project-description{
   font-size: 1.5vw;
-  direction: ltr;
+  direction: rtl;
 }
 .navbar-skills {
   margin-bottom: 40px;
@@ -81,6 +81,7 @@ body {
 .project-showcase{
   padding: 10px;
   margin-bottom: 15px;
+  direction: rtl;
 }
 .skill-icon{
   width:70%;
