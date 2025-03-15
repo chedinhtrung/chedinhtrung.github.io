@@ -92,12 +92,8 @@ function select_skill_title(event){
         shows[i].classList.add('d-none');
       }
     };
-    /*
     var clickedElementId = clicked.id;
     console.log(clickedElementId);
-    element_show = document.getElementById(clickedElementId + "_show");
-    element_show.classList.remove("d-none");
-    */
     if (clickedElementId == "rover") {
       rover = document.getElementById("rover_show");
       rover.classList.remove('d-none');
