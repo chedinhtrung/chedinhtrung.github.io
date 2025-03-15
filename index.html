@@ -47,7 +47,7 @@
   <p class="project-description col-sm-8 d-flex align-items-center">
     My name is Trung, you can call me Steven as well. I am a person with a heart for tech and I work on
     projects in my free time. You can see some of my best below. <br><br>
-    I study Electrical Engineering at the Technical University Dortmund and I have been living in Germany for two years. I go cycling/wandering
+    I study Robotics, Cognition, Intelligence at the Technical University of Munich and I have been living in Germany for four years. I go cycling/wandering
     every once in a while, and nature is my second love. <br><br>
   </p>
 </div>
@@ -124,12 +124,31 @@
 </div>
 
 <div class="content-sector container-fluid">
-  <h2 class="profile-header">Person.<span style="color: #f73160; font-family: Courier;">WorkExperience</span></h2>
+  <h2 class="profile-header">Person.<span style="color: #f73160; font-family: Courier;">Experience</span></h2>
   <p class="project-description">
     I have worked part-time for a while in Germany. Let me tell you about my time here.<br><br>
   </p>
+
   <div style="margin-bottom:10px">
-    <h3 class="worktitle" onclick="expandWorkDescription(event);">Web development <i class="fa-solid fa-caret-right"></i></h3>
+    <h3 class="worktitle" onclick="expandWorkDescription(event);">Siemens<i class="fa-solid fa-caret-right"></i></h3>
+    <div class="row workdescription">
+    <div class="col-sm-4 d-flex justify-content-center align-items-center">
+      <img src="profile/siemens_logo.png" style="max-width:80%; padding:20px">
+    </div>
+    <div class="col-sm-8">
+      <p class="project-description">
+        I did my internship at Siemens in Munich in 2024, then I stayed for a few more months as working student before 
+        I had to return to Dortmund for my bachelor thesis. My first project was data extraction 
+        from CAD models for machine learning using a C# library. I then worked on a product data management solution for 
+        hydrogen plant construction, where I was a full-stack developer. My last project was a process management application 
+        in hydrogen fuel cell manufacturing.
+      </p>
+    </div>
+    </div>
+  </div>
+
+  <div style="margin-bottom:10px">
+    <h3 class="worktitle" onclick="expandWorkDescription(event);">Senbax<i class="fa-solid fa-caret-right"></i></h3>
     <div class="row workdescription">
     <div class="col-sm-4 d-flex justify-content-center align-items-center">
       <img src="profile/senbax.png" style="max-width:80%; padding:20px">
@@ -147,7 +166,7 @@
   </div>
 
   <div style="margin-bottom:10px">
-    <h3 class="worktitle" onclick="expandWorkDescription(event);">Hardware & automated testing <i class="fa-solid fa-caret-right"></i></h3>
+    <h3 class="worktitle" onclick="expandWorkDescription(event);">Kostal<i class="fa-solid fa-caret-right"></i></h3>
     <div class="row workdescription">
     <div class="col-sm-4 d-flex justify-content-center align-items-center">
       <img src="profile/Kostal_logo.png" style="max-width:80%; padding:20px">
@@ -178,8 +197,8 @@
         <h3 class="skill-title-i">Skill = "Matlab&Simulink"</h3>
         <p style="font-size:1rem">
           Level = "Good"<br><br>
-          I chose to visit a Matlab course at college which also included building some projects,
-          so I have plenty of hands-on experience.
+          I chose to visit a Matlab course at college which also included building a project to 
+          simulate digital circuits, so I have hands-on experience.
         </p>
       </div>
       </div>
@@ -190,8 +209,8 @@
         <div style="padding:20px">
         <h3 class="skill-title-i">Skill = "Raspberry Pi"</h3>
         <p style="font-size:1rem">
-          Level = "Good"<br><br>
-          The Internet Rover runs with a Pi, needless to say I've spent plenty of time tinkering with it.
+          Level = "Proficient"<br><br>
+          The Internet Rover runs on a Pi, needless to say I've spent plenty of time tinkering with it.
           But I definitely need some more system administration know-how.
         </p>
       </div>
@@ -206,8 +225,7 @@
         <h3 class="skill-title-i">Skill = "C++"</h3>
         <p style="font-size:1rem">
           Level = "Highly proficient"<br><br>
-          C++ was one of the first thing I learned at university, and it is my
-          favourite language (no offense to others).
+          C++ was one of the first thing I learned at university, and I use it regularly to program microcontrollers.
         </p>
       </div>
       </div>
@@ -244,11 +262,12 @@
       <img src="/profile/esp32.png" id="esp32-icon" class="skill-icon scroll zoom-in-out delay05">
       <div class='skill-level'>
         <div style="padding:20px">
-        <h3 class="skill-title-i"> Skill = "ESP32 on Arduino"</h3>
+        <h3 class="skill-title-i"> Skill = "Arduino"</h3>
         <p style="font-size:1rem">
-          Level = "Good"<br><br>
-          Everybody knows Arduino nowadays, I'm not gonna brag. I plan to massively level up
-          in this department, and maybe move on to something more professional like STM32.
+          Level = "Proficient"<br><br>
+          Everybody knows Arduino nowadays, I'm not gonna brag. But with my humble skill I still 
+          managed to program my own flight controller. I plan to massively level up
+          in this department, and maybe move on to something more professional like STM32. 
         </p>
       </div>
       </div>
@@ -261,7 +280,7 @@
         <p style="font-size:1rem">
           Level = "Highly proficient"<br><br>
           I have been playing with circuit boards and components since highschool, and it is my major in college, so no question asked.
-          I do think I need to start looking into CAD and PCB design though.
+          I can read schematics with ease and I build prototype boards all the time.
         </p>
       </div>
       </div>
@@ -272,18 +291,18 @@
       <img src="/profile/web.png" id="web-icon" class="skill-icon scroll zoom-in-out delay07">
       <div class='skill-level'>
         <div style="padding:20px">
-        <h3 class="skill-title-i">Skill = "Web programming"</h3>
+        <h3 class="skill-title-i">Skill = "Web development"</h3>
         <p style="font-size:1rem">
-          Level = "Good"<br><br>
-          I am fairly experienced in HTML/JS/CSS and Bootstrap, which I used to build this site, but I'm not at all proud
-          of PHP (what a dinosaur tech). I'd love to move on to MERN in the future.
+          Level = "Proficient"<br><br>
+          I am fairly experienced in HTML/JS/CSS and Bootstrap, which I used to build this site. I have also worked 
+          with Flask, NextJS and SQL during my time at Siemens. Concepts such as ORM or REST-API is nothing new to me.
         </p>
       </div>
       </div>
     </div>
     </div>
   </div>
-    <p class="project-description"><br>#TODO: Never stop learning</p>
+    <p class="project-description"><br><span style="color:#009903">#TODO</span>: Never stop learning</p>
 </div>
 
 <div class="content-sector container-fluid">
@@ -293,6 +312,7 @@
     Address = "Ruthstraße 8. 44149 Dortmund, Germany"<br>
     Telephone = "+49 15734121169" <br>
     Resume = "<a href="/profile/Resume_DinhTrungChe_ENG.pdf">Resume_DinhTrungChe.pdf</a>" <br>
+    Github = <a href="github.com/chedinhtrung">chedinhtrung</a>
     LinkedIn = "<a href="https://www.linkedin.com/in/che-dinh-trung-178a402a8/">che-dinh-trung-178a402a8</a>"
   </p>
 </div>
