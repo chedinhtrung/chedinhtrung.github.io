@@ -94,9 +94,25 @@ function select_skill_title(event){
     };
     var clickedElementId = clicked.id;
     console.log(clickedElementId);
-    var element_show = document.getElementById(clickedElementId + "_show");
+    element_show = document.getElementById(clickedElementId + "_show");
     element_show.classList.remove("d-none");
-    
+    /*
+    if (clickedElementId == "rover") {
+      rover = document.getElementById("rover_show");
+      rover.classList.remove('d-none');
+    }
+    if (clickedElementId == "website") {
+      rover = document.getElementById("website_show");
+      rover.classList.remove('d-none');
+    }
+    if (clickedElementId == "biosphere") {
+      rover = document.getElementById("biosphere_show");
+      rover.classList.remove('d-none');
+    };
+    if (clickedElementId == "tesla") {
+      rover = document.getElementById("tesla_show");
+      rover.classList.remove('d-none');
+    };*/
   }, 700, shows);
   clicked.innerHTML += '<i class="fa-solid fa-caret-right"></i>';
 }
